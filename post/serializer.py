@@ -6,8 +6,8 @@ class PostSerializer(serializers.ModelSerializer):
     # serializers의 ModelSerializer 상속받음.
     class Meta:
         model = Post
-        # fields = '__all__'
         fields = ('id', 'title', 'body')
-        read_only_fields = ('title',)
+        # fields = '__all__'
+        # read_only_fields = ('title',)
 
 
