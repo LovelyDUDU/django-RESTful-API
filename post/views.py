@@ -18,6 +18,8 @@ class PostViewSet(viewsets.ModelViewSet):
 '''
 # APIView를 이용 (CBV class based View 방식으로 구현됨)
 
+
+
 # 데이터 처리 대상
 from post.models import Post
 from post.serializer import PostSerializer
@@ -150,6 +152,8 @@ from rest_framework import renderers
 from rest_framework.decorators import action
 from django.http import HttpResponse
 
+from post.pagination import Mypagination
+
 # ReadOnlyModelViewSet은 말 그대로 ListView, DetailView의 조회만 가능
 
 # ReadOnlyModelViewSet 는 GET(조회) 만 가능함
@@ -158,11 +162,17 @@ from django.http import HttpResponse
 #     serializer_class = PostSerializer
 
 class PostViewSet(viewsets.ModelViewSet):
-    queryset = Post.objects.all()
+    queryset = Post.objects.all().order_by('title')
     serializer_class = PostSerializer
+    pagination_class = Mypagination
 
     # @action(method=['post'])
     @action(detail=True, renderer_classes=[renderers.StaticHTMLRenderer])
     # 그냥 얍을 띄우는 customapi
     def highlight(self, request, *args, **kwargs):
         return HttpResponse("얍")
+
+# 페이지네이션을 할 때에는 반드시 레코드를 정렬한 상태에서 페이지네이션을 수행해야 한다!
+# -> order_by('id') 와 같이 정렬시켜줘야함.
+# queryset에 대해서만 정렬하는게 아닌 모델에 대해 정렬하고 싶으면 meta class 에 정렬 넣어줘야함
+

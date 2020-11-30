@@ -6,7 +6,7 @@ from . import views
 # django rest framework는 router라는 것을 통해서 url을 결정한다.
 
 router = DefaultRouter()
-router.register('post', views.PostViewSet)
+router.register('', views.PostViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
