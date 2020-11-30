@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="80b71ff1-eb0f-4ae2-b581-b4e714f50cf8" name="Default Changelist" comment="" />
+    <list default="true" id="80b71ff1-eb0f-4ae2-b581-b4e714f50cf8" name="Default Changelist" comment="~ 12. Pagination">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userpost/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userpost/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userpost/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userpost/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userpost/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JupyterTrust" id="e993401c-121e-4865-9020-9d3c1e2d5832" />
   <component name="ProjectId" id="1kjpgn9q8dTjNL5fHy5ohTPHTiy" />
   <component name="ProjectViewState">
@@ -22,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -37,6 +67,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="firstrest.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -63,11 +94,111 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606223968354</updated>
-      <workItem from="1606224024523" duration="3423000" />
+      <workItem from="1606224024523" duration="4214000" />
+      <workItem from="1606313045026" duration="2579000" />
+      <workItem from="1606394727894" duration="6413000" />
+      <workItem from="1606531934800" duration="10403000" />
+      <workItem from="1606625616508" duration="1270000" />
+      <workItem from="1606652954647" duration="6052000" />
+      <workItem from="1606742881392" duration="5064000" />
     </task>
+    <task id="LOCAL-00001" summary="~ 7. APIView 실습">
+      <created>1606315619338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606315619338</updated>
+    </task>
+    <task id="LOCAL-00002" summary="~ 11. Router 실습">
+      <created>1606626736277</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606626736277</updated>
+    </task>
+    <task id="LOCAL-00003" summary="~ 14. Filtering &amp; Search">
+      <created>1606747707551</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606747707551</updated>
+    </task>
+    <task id="LOCAL-00004" summary="~ 12. Pagination">
+      <created>1606747781478</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606747781478</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="~ 7. APIView 실습" />
+    <MESSAGE value="~ 11. Router 실습" />
+    <MESSAGE value="~ 13. Filtering &amp; Search" />
+    <MESSAGE value="~ 12. Pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="~ 12. Pagination" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="608" y="312" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1606747936688">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="608" y="312" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.0.1536.824@0.0.1536.824" timestamp="1606747936688" />
+    <state width="1493" height="247" key="GridCell.Tab.0.bottom" timestamp="1606747920905">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="247" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606747920905" />
+    <state width="906" height="142" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606587103039" />
+    <state width="1493" height="247" key="GridCell.Tab.0.center" timestamp="1606747920905">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="247" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606747920905" />
+    <state width="906" height="142" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606587103039" />
+    <state width="1493" height="247" key="GridCell.Tab.0.left" timestamp="1606747920905">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="247" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606747920905" />
+    <state width="906" height="142" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606587103038" />
+    <state width="1493" height="247" key="GridCell.Tab.0.right" timestamp="1606747920905">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="247" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606747920905" />
+    <state width="906" height="142" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606587103039" />
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2" timestamp="1606747853353">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="132" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606747853353" />
+    <state x="451" y="167" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1536.824@0.0.1920.1040" timestamp="1606626739984" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1606745972997">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606745972997" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/post/views.py</url>
+          <line>144</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
