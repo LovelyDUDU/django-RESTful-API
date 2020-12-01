@@ -1,9 +1,13 @@
+from rest_framework.authentication import SessionAuthentication, BasicAuthentication, TokenAuthentication
+
 from userpost.models import UserPost
 from userpost.serializer import UserSerializer
 from rest_framework import viewsets
 from rest_framework.filters import SearchFilter
 
 class UserPostViewSet(viewsets.ModelViewSet):
+    authentication_classes = [BasicAuthentication, SessionAuthentication]
+    # 내가 적용하고자 하는 Authentication 방식을 써줌
     queryset = UserPost.objects.all()
     serializer_class = UserSerializer
 
@@ -24,3 +28,6 @@ class UserPostViewSet(viewsets.ModelViewSet):
     # get_queryset 메서드를 만들어서 거기서 조작
     # super클래스 = 부모 클래스
     # .filter 또는 .exclude 사용
+
+    def perform_create(self, serializer):
+        serializer.save(author=self.request.user)
