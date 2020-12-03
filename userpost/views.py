@@ -6,7 +6,7 @@ from rest_framework import viewsets
 from rest_framework.filters import SearchFilter
 
 class UserPostViewSet(viewsets.ModelViewSet):
-    authentication_classes = [TokenAuthentication, SessionAuthentication]
+    authentication_classes = [TokenAuthentication]
     # 내가 적용하고자 하는 Authentication 방식을 써줌
     permission_classes = [IsAdminUser]
     # 내가 원하는 권한설정을 해주면 됨.ㄴ

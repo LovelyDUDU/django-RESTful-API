@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'rest_framework',  # rest installed app 등록
     'post',
     'userpost',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
